@@ -1,0 +1,37 @@
+body.home {
+    animation: FadeIn1 5s infinite both;
+   
+}
+
+body.home:after {
+    animation: FadeIn2 5s infinite both;
+}
+
+@keyframes FadeIn1 {
+    0% {
+        background-color: #b76de9;
+    }
+
+    50% {
+        background-color: rgba(126, 27, 176, 0.772);
+    }
+
+    100% {
+        background-color: #b76de9;
+    }
+}
+
+@keyframes FadeIn2 {
+
+    0% {
+        background-color: rgba(134, 26, 134, 0.534);
+    }
+
+    50% {
+        background-color: #b76de9;
+    }
+
+    100% {
+        background-color: rgba(134, 26, 134, 0.534);
+    }
+}

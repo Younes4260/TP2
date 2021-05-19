@@ -1,0 +1,25 @@
+body.home {
+  animation: FadeIn 2s infinite both;
+}
+
+body.home:after {
+  animation: FadeOut 2s infinite both;
+}
+
+@keyframes FadeIn {
+  0% {
+    background-color: #b76de9;
+  }
+  100% {
+    background-color: rgba(134, 26, 134, 0.534);
+  }
+}
+
+@keyframes FadeOut {
+  0% {
+    background-color: rgba(134, 26, 134, 0.534);
+  }
+  100% {
+    background-color: #b76de9;
+  }
+}

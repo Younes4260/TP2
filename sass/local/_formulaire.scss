@@ -1,0 +1,108 @@
+section {
+    .nouvelles {
+        display: flex;
+
+    }
+
+    .admin-rapid {
+        display: flex;
+        flex-direction: column;
+        h3 {
+            text-align: center;
+        }
+    #blocdetexte {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 40vw;
+        margin: auto;
+        button {
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        textarea {
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        input {
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+    }
+    }
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    .wp-block-columns {
+        width: 75%;
+        margin-left: 15%;
+        text-align: justify;
+        .wp-block-column:nth-child(2) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+.site-info {
+    display: flex;
+    transform: translateY(100px);
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+
+}
+
+#categories-3 {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: black solid 3px;
+    a {
+    text-decoration: none;
+    }
+}
+
+#calendar-3 {
+    width: 50%;
+    margin-left: 100px;
+    
+}
+
+#primary {
+    width: 80%;
+}
+
+#secondary {
+    padding-top: 100px;
+}
+
+.widget_calendar {
+    border: black solid 3px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    box-shadow: 0 0px 3px 0 rgba(0,0,0,0.2);
+        -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+}
+
+.widget-title {
+    text-align: center;
+}
+
+div.wp-block-columns {
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 20px;
+    border: 3px solid black;
+}
+
+
